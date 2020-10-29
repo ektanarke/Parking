@@ -1,0 +1,70 @@
+{
+  "Employee": [
+    {
+      "id": 3,
+      "vehicalName": "BMW",
+      "fullName": "Ekta Narke",
+      "Date": "12/12/2019",
+      "contact": 7894561,
+      "address": "pune",
+      "VehicalNumber": "MH12 FN 6951",
+      "Time": "12:30 pm",
+      "VehicalType": "Four-Wheeler",
+      "PackingBlockNumber": 2,
+      "ParkingStatus": "Parked"
+    },
+    {
+      "id": 4,
+      "vehicalName": "Audi",
+      "fullName": "Shubham Narke",
+      "Date": "13/01/2019",
+      "contact": 78994561,
+      "address": "pune",
+      "VehicalNumber": "MH12 SN 2312",
+      "Time": "12:30 pm",
+      "VehicalType": "Four-Wheeler",
+      "PackingBlockNumber": 3,
+      "ParkingStatus": "Parked"
+    },
+    {
+      "vehicalName": "Activa",
+      "fullName": "Priyanka gaikwad",
+      "Date": "13/07/2020",
+      "contact": "75312",
+      "id": 5,
+      "address": "pune",
+      "VehicalNumber": "MH12 KF 4561",
+      "Time": "12:30 pm",
+      "VehicalType": "Two-Wheeler",
+      "PackingBlockNumber": 1,
+      "ParkingStatus": "Un-Parked"
+    },
+    {
+      "vehicalName": "Scooty",
+      "fullName": "Tenu Pandit",
+      "Date": "12/01/2020",
+      "contact": "7846455",
+      "id": 7,
+      "address": "pune",
+      "VehicalNumber": "MH12 RH 6325",
+      "Time": "12:30 pm",
+      "VehicalType": "Two-Wheeler",
+      "PackingBlockNumber": 2,
+      "ParkingStatus": "Parked"
+    },
+    {
+      "vehicalName": "Activa ",
+      "fullName": "Kalpana",
+      "Date": "12/3/2020",
+      "contact": "985662333",
+      "id": 8,
+      "address": "Pune",
+      "VehicalNumber": "MH12 SG 6325",
+      "Time": "12:03 am",
+      "VehicalName": "Luna",
+      "VehicalType": "Two-Wheeler",
+      "PackingBlockNumber": 2,
+      "ParkingStatus": "Parked"
+    }
+  ]
+}

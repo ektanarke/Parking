@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col-md-6" form-group>
+        <input placeholder="Vehical Name" class="form-control" [(ngModel)]="ParkingService.currentVehical.vehicalName">
+    </div>
+    <div class="col-md-6" form-group>
+        <input placeholder="Full Name" class="form-control" [(ngModel)]="ParkingService.currentVehical.fullName">
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-12" form-group>
+        <input placeholder="Date" class="form-control" [(ngModel)]="ParkingService.currentVehical.Date">
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-6" form-group >
+        <input placeholder="Contact" class="form-control" [(ngModel)]="ParkingService.currentVehical.contact">
+    </div>
+    <div class="col-md-6" form-group>
+        <input placeholder="Address" class="form-control" [(ngModel)]="ParkingService.currentVehical.address">
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-6" form-group >
+        <input placeholder="Vehical Number" class="form-control" [(ngModel)]="ParkingService.currentVehical.VehicalNumber">
+    </div>
+    <div class="col-md-6" form-group>
+        <input placeholder="Time" class="form-control" [(ngModel)]="ParkingService.currentVehical.Time">
+    </div>
+</div>
+<br>
+
+
+<div class="row">
+    <div class="col-md-6" form-group >
+        <input placeholder="Vehical Type" class="form-control" [(ngModel)]="ParkingService.currentVehical.VehicalType">
+    </div>
+    <div class="col-md-6" form-group>
+        <input placeholder="Packing Block Number" class="form-control" [(ngModel)]="ParkingService.currentVehical.PackingBlockNumber">
+    </div>
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-6" form-group >
+        <input placeholder="Parking Status" class="form-control" [(ngModel)]="ParkingService.currentVehical.ParkingStatus">
+    </div>
+    
+</div>
+<br>
+
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-success btn-block btn-lg" (click)="createAndUpdate(ParkingService.currentVehical)"> <i class="fa fa-save"></i> CREATE </button>
+    </div>
+    
+    <div class="col-md-4">
+        <button class="btn btn-primary btn-block btn-lg" (click)="clear()"> <i class="fa fa-retweet"></i> CLEAR</button>
+    </div>
+</div>

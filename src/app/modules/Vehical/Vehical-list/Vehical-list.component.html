@@ -1,0 +1,32 @@
+<table class="table table-hover" border="1">
+  
+    <tr *ngFor="let Vehical of AllVehical">
+        
+        <td>{{Vehical.id}}</td>
+        <td>{{Vehical.vehicalName}}</td>
+        <td>{{Vehical.fullName}}</td>
+        <td>{{Vehical.Date}}</td>
+        <td>{{Vehical.contact}}</td>
+        <td>{{Vehical.address}}</td>
+        <td>{{Vehical.VehicalNumber}}</td>
+        <td>{{Vehical.Time}}</td>
+        <td>{{Vehical.VehicalType}}</td>
+        <td>{{Vehical.PackingBlockNumber}}</td>
+        <td>{{Vehical.ParkingStatus}}</td>
+        
+        <td>
+            <a class="btn" (click)="edit(Vehical)">
+                <i class="fa fa-edit"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn text-danger" (click)="deleteVehical(Vehical.id)">
+                <i class="fa fa-trash"></i>
+            </a>
+        </td>
+    </tr>
+</table>
+
+
+<!-- <input [(ngModel)]="msg">
+{{msg}} -->
